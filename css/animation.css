@@ -23,7 +23,7 @@
 }
 
 
-
+/*블러처리 되었다가 스르륵 나오는거*/
 .ani3{
     transition: all 1s ease 0s;
     transform: translateX(-20px);
