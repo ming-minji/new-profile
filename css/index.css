@@ -6,11 +6,19 @@
 }
 
 .pf1 {
+  font-family: "Darumadrop One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pf2 {
   font-family: "Caveat", cursive;
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
 }
+
+
 
 
 .all{
@@ -98,14 +106,18 @@ p{
     font-weight: var(--fw-bold);
     margin-bottom: var(--space-normal);
     text-align: center;
-    color: #0d532d;
+    /* color: #0d532d; */
+    color: #1363A2
+    /* color: #1d86cc; */
 }
 .pro-title h3{
     font-size: 1.2rem;
     font-weight: 700;
     margin-bottom: 3rem;
     text-align: center;
-    color: #124418;
+    /* color: #124418; */
+    color: #1363A2
+    /* color: #1d86cc; */
 }
 .pro-title h3+p {
     margin-bottom: var(--space-normal);
@@ -223,6 +235,8 @@ p{
 }
 
 .popup h2{
+    color: #1363A2;
+    /* color: #1d86cc; */
     font-size: 5rem;
     font-weight: 700;
     margin-bottom: 0.5rem;
@@ -230,6 +244,7 @@ p{
 }
 
 .popup h2+p{
+    color: #404040;
     text-align: center;
     font-weight: 500;
     font-size: 3rem;
@@ -302,12 +317,14 @@ p{
 }
 
 .poster-title h2{
+    color: #1363A2;
     font-size: 5rem;
     font-weight: 700;
     margin-bottom: 3rem;
 }
 
 .poster-title h2+p{
+    color: #404040;
     font-size: 3rem;
     margin-bottom: 3rem;
 }
@@ -356,11 +373,15 @@ p{
     margin-top: 6rem;
 }
 .banner h2{
+    color: #1363A2;
+    /* color: #1d86cc; */
     font-size:5rem;
     font-weight: 700;
     margin-bottom: 1rem;
 }
 .banner h2+p{
+    /* color: #1364a28e;*/
+    color: #404040;
     font-size:3rem;
     margin-bottom: 3rem;
 }
@@ -379,12 +400,14 @@ p{
 }
 .detail h2{
     /* color: #1d86cc; */
+    color: #1363A2;
     font-size:5rem;
     font-weight: 700;
     margin-bottom: 1rem;
     text-align: center;
 }
 .detail h2+p{
+    color: #404040;
     font-size:3rem;
     margin-bottom: 3rem;
     text-align: center;
@@ -550,13 +573,14 @@ p{
 
 .project h2{
     /* color: #1d86cc; */
+    color: #1363A2;
     font-size:5rem;
     font-weight: 700;
     margin-bottom: 1rem;
     text-align: center;
 }
 .project h2+p{
-    /* color: #1d86cc; */
+    color: #404040;
     font-size:3rem;
     margin-bottom: 3rem;
     text-align: center;
@@ -660,7 +684,7 @@ p{
 }
 
 .contact{
-    background-color: #1d86cc;
+    background-color: #1363A2;
     color: #fff;
     padding: 6rem 0 8rem;
     text-align: center;
